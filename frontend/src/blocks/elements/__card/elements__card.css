@@ -1,0 +1,6 @@
+.elements__card {
+    position: relative;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
