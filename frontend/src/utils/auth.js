@@ -49,5 +49,5 @@ class Auth {
 }
 
 export const auth = new Auth({
-  baseUrl: 'http://localhost:3001',
+  baseUrl: 'http://api.deadforstree.nomoredomains.work',
 });

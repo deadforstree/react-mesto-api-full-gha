@@ -14,7 +14,7 @@ const {
   signInValidation,
 } = require('./middlewares/validations');
 
-// Слушаем 3000 порт
+// Слушаем 3001 порт
 const { PORT = 3001 } = process.env;
 
 const app = express();
