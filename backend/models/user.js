@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs'); // импортируем bcrypt
 const isEmail = require('validator/lib/isEmail');
 const isURL = require('validator/lib/isURL');
-const AuthErr = require('../errors/wrong-token-err')
+const AuthErr = require('../errors/wrong-token-err');
 
 const userSchema = new mongoose.Schema({
   name: {
