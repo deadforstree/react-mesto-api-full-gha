@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.45.12
+IP 158.160.45.12
 
 Frontend https://deadforstree.nomoredomains.rocks
 
