@@ -12,7 +12,7 @@ class Auth {
   }
 
   register(email, password) {
-    return fetch(`${this._baseUrl}/signup`, {
+    return fetch(`${BASE_URL}/signup`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: `${email}`, password: `${password}` }),
@@ -20,7 +20,7 @@ class Auth {
   }
 
   login(email, password) {
-    return fetch(`${this._baseUrl}/signin`, {
+    return fetch(`${BASE_URL}/signin`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: email, password: password }),
@@ -36,7 +36,7 @@ class Auth {
   }
 
   checkToken() {
-    return fetch(`${this._baseUrl}/users/me`, {
+    return fetch(`${BASE_URL}/users/me`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -51,3 +51,5 @@ class Auth {
 export const auth = new Auth({
   baseUrl: 'http://api.deadforstree.nomoredomains.work',
 });
+
+const BASE_URL = "https://api.deadforstree.nomoredomains.work";
