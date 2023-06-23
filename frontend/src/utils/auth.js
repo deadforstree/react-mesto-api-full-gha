@@ -49,7 +49,7 @@ class Auth {
 }
 
 export const auth = new Auth({
-  baseUrl: 'http://api.deadforstree.nomoredomains.work',
+  baseUrl: 'https://api.deadforstree.nomoredomains.work',
 });
 
 const BASE_URL = "https://api.deadforstree.nomoredomains.work";

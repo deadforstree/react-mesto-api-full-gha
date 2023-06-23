@@ -108,7 +108,7 @@ class Api {
 }
 
 export const api = new Api({
-  baseUrl: 'http://api.deadforstree.nomoredomains.work',
+  baseUrl: 'https://api.deadforstree.nomoredomains.work',
   headers: {
     // authorization: 'e35b94b1-baff-4190-b21b-fc912cacb94b',
     'Content-Type': 'application/json',
